@@ -1,0 +1,158 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #b6c6f3;
+    overflow: hidden;
+}
+
+main{
+    position: relative;
+    background-image: url(back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #030b24;
+    background-blend-mode: overlay;
+    padding: 70px;
+    overflow: hidden;
+        text-align: center;
+}
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 70PX;
+       color: #fff;
+       padding: 20px;
+       border-radius: 7px;
+}
+
+ul li{
+    display: inline-block;
+ color: #fff;
+}
+
+ul li a:hover {
+    color: rgb(121, 122, 122);
+}
+
+ li a{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 15px 40px;
+    color: #fff;
+    text-decoration: none;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+ 
+}
+.logo-text{
+    display: inline-block;
+    margin-left: 10px;
+}
+ a .logo-text{
+   color: #fff;
+}
+.logo img{
+    width: 200px;
+  
+   
+}
+hi{
+    font-size: 40px;
+}
+button{
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    line-height: 1.5;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    padding: 80px;
+
+}
+
+.left-hero-section img{
+width: 500px;
+}
+
+
+ .hero-button {
+  font-family: sans-serif;
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+
+.hero-button a{
+    color: #fff;
+    text-decoration: none;
+}
+.hero-button:hover {
+    background-color: darkblue;
+}
+.hero-section p{
+    font-size: 15px;
+    font-weight: lighter;
+    color: #ece2e2b9;
+}
+p{
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 20px;
+    }
+
+    .hero-button {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .menu-bar {
+        flex-direction: column;
+        margin: 30px;
+    }
+
+    ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+}
